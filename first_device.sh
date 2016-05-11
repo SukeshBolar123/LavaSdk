@@ -1,0 +1,1 @@
+appium -a 10.0.0.38 -p 4723 --no-reset --bootstrap-port 4728 --nodeconfig /Users/Chethan/Documents/workspace/LavaSdk/nodeconfig_1.json

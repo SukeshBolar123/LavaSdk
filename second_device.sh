@@ -1,0 +1,1 @@
+appium -a 127.0.0.1 -p 4725 --no-reset --bootstrap-port 4729 --nodeconfig /Users/Chethan/Documents/workspace/LavaSdk/nodeconfig_2.json

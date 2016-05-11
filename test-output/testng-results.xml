@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='orange'>Test Scenario : Launching the application</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>-----Test Case 1-----</font><br> 1. Install app and launch it.<br>2. Verify whether 'Login' screen is loaded.]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[<font color='orange'>Test Scenario : Launching the application</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>-----Test Case 2-----</font><br> 1. Launch application.<br>2. Verify whether advertisement is shown.<br>3. Close the advertisement if it is shown, else continue execution.]]>
+    </line>
+    <line>
+      <![CDATA[<font color='black'>Info: Advertisement is shown.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='orange'>Test Scenario : Login</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>-----Test Case 3-----</font><br> 1. Enter correct Username<br>2. Enter correct password<br>3. Tap on login button.]]>
+    </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[<font color='orange'>Test Scenario : Navigating to Analytics screen and tapping on Video 1, Video 2, Image and Article button.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>-----Test Case 4-----</font><br> 1. Tap on Menu button<br>2. Tap on Article button.<br>3. Tap on Video 1 button.<br>3. Tap on Video 2 button.<br>3. Tap on Image button.<br>3. Tap on Article button.]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+    <line>
+      <![CDATA[<font color='orange'>Test Scenario : Logout from the application.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>-----Test Case 4-----</font><br> 1. Tap on Menu button<br>2. Tap on Logout button.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="212537" started-at="2016-05-10T10:30:33Z" finished-at="2016-05-10T10:34:06Z">
+    <groups>
+    </groups>
+    <test name="run on cc iPhone 6" duration-ms="212537" started-at="2016-05-10T10:30:33Z" finished-at="2016-05-10T10:34:06Z">
+      <class name="login.loginuser">
+        <test-method status="PASS" signature="verify()[pri:0, instance:login.loginuser@226dcb0f]" name="verify" duration-ms="48836" started-at="2016-05-10T16:01:21Z" finished-at="2016-05-10T16:02:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='orange'>Test Scenario : Launching the application</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>-----Test Case 1-----</font><br> 1. Install app and launch it.<br>2. Verify whether 'Login' screen is loaded.]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[<font color='orange'>Test Scenario : Launching the application</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>-----Test Case 2-----</font><br> 1. Launch application.<br>2. Verify whether advertisement is shown.<br>3. Close the advertisement if it is shown, else continue execution.]]>
+            </line>
+            <line>
+              <![CDATA[<font color='black'>Info: Advertisement is shown.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='orange'>Test Scenario : Login</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>-----Test Case 3-----</font><br> 1. Enter correct Username<br>2. Enter correct password<br>3. Tap on login button.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify -->
+      </class> <!-- login.loginuser -->
+      <class name="driver.setup.DriverDecider">
+        <test-method status="PASS" signature="SetWebDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:driver.setup.DriverDecider@60ce717a]" name="SetWebDriver" is-config="true" duration-ms="47749" started-at="2016-05-10T16:00:33Z" finished-at="2016-05-10T16:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7c3783badba58f48280833f48c8a59065546d7d2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CC iPhone 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetWebDriver -->
+      </class> <!-- driver.setup.DriverDecider -->
+      <class name="analytics.analytics">
+        <test-method status="PASS" signature="verify()[pri:0, instance:analytics.analytics@168e4ea6]" name="verify" duration-ms="115897" started-at="2016-05-10T16:02:10Z" finished-at="2016-05-10T16:04:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[<font color='orange'>Test Scenario : Navigating to Analytics screen and tapping on Video 1, Video 2, Image and Article button.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>-----Test Case 4-----</font><br> 1. Tap on Menu button<br>2. Tap on Article button.<br>3. Tap on Video 1 button.<br>3. Tap on Video 2 button.<br>3. Tap on Image button.<br>3. Tap on Article button.]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+            <line>
+              <![CDATA[<font color='orange'>Test Scenario : Logout from the application.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>-----Test Case 4-----</font><br> 1. Tap on Menu button<br>2. Tap on Logout button.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify -->
+      </class> <!-- analytics.analytics -->
+    </test> <!-- run on cc iPhone 6 -->
+  </suite> <!-- Suite -->
+</testng-results>

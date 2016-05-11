@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="port" value="4723"/>
+  <parameter name="devicename" value="CC iPhone 6"/>
+  <parameter name="udid" value="7c3783badba58f48280833f48c8a59065546d7d2"/>
+  <test name="run on cc iPhone 6(failed)" parallel="tests">
+    <parameter name="port" value="4723"/>
+    <parameter name="devicename" value="CC iPhone 6"/>
+    <parameter name="udid" value="7c3783badba58f48280833f48c8a59065546d7d2"/>
+    <classes>
+      <class name="analytics.analytics">
+        <methods>
+          <include name="verify"/>
+        </methods>
+      </class> <!-- analytics.analytics -->
+      <class name="driver.setup.DriverDecider">
+        <methods>
+          <include name="SetWebDriver"/>
+        </methods>
+      </class> <!-- driver.setup.DriverDecider -->
+    </classes>
+  </test> <!-- run on cc iPhone 6(failed) -->
+</suite> <!-- Failed suite [Suite] -->

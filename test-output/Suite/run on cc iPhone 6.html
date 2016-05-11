@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  run on cc iPhone 6</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>run on cc iPhone 6</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 10 16:00:33 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>212 seconds (212537 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='login.loginuser.verify()'><b>verify</b><br>Test class: login.loginuser<br/>
+<a href="#Output-1829963417" onClick='toggleBox("Output-1829963417", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1829963417" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1829963417">
+<font color='orange'>Test Scenario : Launching the application</font><br/>
+<font color='blue'>-----Test Case 1-----</font><br> 1. Install app and launch it.<br>2. Verify whether 'Login' screen is loaded.<br/>
+STEP3<br/>
+<font color='orange'>Test Scenario : Launching the application</font><br/>
+<font color='blue'>-----Test Case 2-----</font><br> 1. Launch application.<br>2. Verify whether advertisement is shown.<br>3. Close the advertisement if it is shown, else continue execution.<br/>
+<font color='black'>Info: Advertisement is shown.</font><br/>
+<font color='orange'>Test Scenario : Login</font><br/>
+<font color='blue'>-----Test Case 3-----</font><br> 1. Enter correct Username<br>2. Enter correct password<br>3. Tap on login button.<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>login.loginuser@226dcb0f</td></tr>
+<tr>
+<td title='analytics.analytics.verify()'><b>verify</b><br>Test class: analytics.analytics<br/>
+<a href="#Output-2056583063" onClick='toggleBox("Output-2056583063", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2056583063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2056583063">
+STEP9<br/>
+<font color='orange'>Test Scenario : Navigating to Analytics screen and tapping on Video 1, Video 2, Image and Article button.</font><br/>
+<font color='blue'>-----Test Case 4-----</font><br> 1. Tap on Menu button<br>2. Tap on Article button.<br>3. Tap on Video 1 button.<br>3. Tap on Video 2 button.<br>3. Tap on Image button.<br>3. Tap on Article button.<br/>
+STEP12<br/>
+<font color='orange'>Test Scenario : Logout from the application.</font><br/>
+<font color='blue'>-----Test Case 4-----</font><br> 1. Tap on Menu button<br>2. Tap on Logout button.<br/>
+</div>
+</td>
+<td></td>
+<td>115</td>
+<td>analytics.analytics@168e4ea6</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1" parallel="tests" thread-count="5">
+    <tests>
+      <test name="run on cc iPhone 6">
+            <classes>
+                <parameter name="port" value="4723"/>
+                <parameter name="udid" value="7c3783badba58f48280833f48c8a59065546d7d2" />
+                 <parameter name="devicename" value="CC iPhone 6"/>
+                <class name="driver.setup.DriverDecider"/>
+    		  <class name="login.loginuser"/> 
+    		 <class name="analytics.analytics"/>   
+            </classes>
+        </test>     
+        
+        
+   <!--     <test name="run on Sukesh's iPhone">
+            <classes>
+                <parameter name="port" value="4725"/>
+                <parameter name="udid" value="1e587d7a14ac4fd082f8a8a28c81b46a75110251" />
+                <parameter name="devicename" value="iPhone 6s +"/>
+                <class name="driver.setup.DriverDecider"/>
+    		  <class name="login.loginuser"/> 
+    		 <class name="analytics.analytics"/>   
+            </classes>   
+        </test> -->
+    </tests>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!-- <test name="TestCase 1">
+      <classes>
+   	 <class name="driver.setup.DriverDecider"/>
+      <class name="login.loginuser"/> 
+     <class name="analytics.analytics"/>      
+    </classes>   
+  </test> -->
+  
+  
+  
+</suite> <!-- Suite -->
